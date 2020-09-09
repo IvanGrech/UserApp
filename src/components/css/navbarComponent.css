@@ -1,0 +1,68 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+h1 {
+  text-align: center;
+}
+
+#navbar {
+  background-color: rgb(14, 93, 129);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+li {
+  color: white;
+}
+#fav {
+  animation: rotation 10s infinite linear;
+  width: 2cm;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.loginButtons {
+  margin: 1cm;
+  padding-right: 5mm;
+}
+
+#notFoundImg {
+  width: 100%;
+}
+
+#backImg {
+  height: 100%;
+  width: 100%;
+}
+
+#userName {
+  color: white;
+  padding-top: 4mm;
+}
+
+#userFLname {
+  position: absolute;
+  font-size: 100px;
+}
+
+#addUserForm {
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+
+#addUserForm header {
+  font-size: 50cm;
+}
+
+#loginId {
+  border-color: black;
+}
